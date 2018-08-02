@@ -1,0 +1,366 @@
+/*@media screen and (min-width: 1300px) {
+  .main{
+    width:1200px;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .main{
+    width:1000px;
+  }
+  .banner{
+    height:500px;
+  }
+}*/
+
+.main {
+  width: 1200px;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  color: #97989a;
+  background-color: #f0f3f8;
+}
+
+.nav {
+  position: fixed;
+  top: 36px;
+  left: 0;
+  z-index: 100;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+}
+
+.nav .logo {
+  margin-top: 12px;
+  width: 183px;
+  height: 55px;
+  background: url("../images/logo.png") no-repeat 100% 100%;
+  background-size: 100% 100%;
+}
+
+.nav .sub-nav a {
+  padding: 0 30px;
+  height: 80px;
+  line-height: 80px;
+  font-size: 18px;
+}
+
+.nav .sub-nav a:hover {
+  color: #3098d5;
+}
+
+.tittle {
+  padding-top: 60px;
+  .text {
+    height: 62px;
+    line-height: 62px;
+    font-size: 38px;
+    text-align: center;
+  }
+  .icon-line {
+    position: absolute;
+    top: 125px;
+    left: 568px;
+    width: 65px;
+    height: 4px;
+    background-color: #3098d5;
+  }
+
+}
+
+.banner-box {
+  margin-top: 116px;
+  height: 600px;
+  background: url("../images/banner.png") no-repeat 100% 100%;
+  background-size: 100% 100%;
+}
+
+.product-box {
+  height: 570px;
+  background-color: #fff;
+
+  .main {
+    .product {
+      margin-top: 85px;
+      .left {
+        width: 426px;
+        .left-tittle {
+          img {
+            display: block;
+            margin-right: 16px;
+            width: 60px;
+            height: 60px;
+          }
+          .left-text {
+            line-height: 60px;
+            font-size: 24px;
+          }
+        }
+        .left-content {
+          position: relative;
+          margin-top: 24px;
+          height: 226px;
+          line-height: 22px;
+          font-size: 14px;
+          text-indent: 10px;
+
+          .download-app {
+            position: absolute;
+            right: 0;
+            bottom: 0;
+            width: 300px;
+            height: 138px;
+
+            .ios, .andr {
+              position:relative;
+              line-height: 24px;
+              text-indent: 0;
+              font-size: 20px;
+              img {
+                margin-left: 26px;
+                width: 112px;
+                height: 112px;
+              }
+              .text{
+                padding-left:26px;
+                text-align:center;
+              }
+              .wait{
+                position:absolute;
+                top:0;
+                left:26px;
+                width:112px;
+                line-height:112px;
+                text-align:center;
+                font-size:18px;
+                color:#fff;
+              }
+            }
+
+          }
+        }
+      }
+      .right {
+        width: 660px;
+
+        .right-tittle {
+          font-size: 18px;
+          text-align: center;
+          color: #919191;
+        }
+        .right-content {
+          margin-top: 40px;
+          .advantage {
+            position: relative;
+            margin-right: 20px;
+            padding: 0 20px;
+            width: 160px;
+            height: 250px;
+            box-shadow: 0 0 5px 5px #f5f5f7;
+            -webkit-box-shadow: 0 0 5px 5px #f5f5f7;
+            -moz-box-shadow: 0 0 5px 5px #f5f5f7;
+            -o-box-shadow: 0 0 5px 5px #f5f5f7;
+
+            .icon {
+              position: absolute;
+              top: 24px;
+              left: 80px;
+              width: 48px;
+              height: 48px;
+            }
+            .text {
+              margin-top: 88px;
+              color: #2f98d1;
+              text-align: center;
+              font-size: 16px;
+            }
+            .content {
+              margin-top: 15px;
+              line-height: 20px;
+              color: #919191;
+              font-size: 16px;
+            }
+
+          }
+        }
+
+      }
+    }
+  }
+
+}
+
+@keyframes color {
+  from {
+    box-shadow: 0 0 5px 5px #2f98d1;
+  }
+  to {
+    box-shadow: 0 0 5px 5px #88d3fa;
+  }
+}
+
+@-webkit-keyframes color {
+  from {
+    box-shadow: 0 0 5px 5px #2f98d1;
+  }
+  to {
+    box-shadow: 0 0 5px 5px #88d3fa;
+  }
+}
+
+.company-box {
+  height: 660px;
+  background-color: #f0f3f8;
+  .main {
+    .content {
+      padding-top: 34px;
+      line-height: 28px;
+      font-size: 14px;
+      text-align: center;
+    }
+    .years {
+      margin-top: 56px;
+      .year-item {
+        margin-left: 75px;
+        width: 296px;
+        height: 234px;
+        background-color: #fff;
+        img {
+          display: block;
+          width: 296px;
+          height: 172px;
+        }
+        .des-one, .des-three {
+          height: 62px;
+          line-height: 62px;
+          text-align: center;
+          font-size: 14px;
+        }
+        .des-two {
+          padding: 10px 20px;
+          line-height: 20px;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+  .years-line {
+    margin-top: 48px;
+    height: 1px;
+    background-color: #dbdee3;
+    .main {
+      .circle-box {
+        margin-left: 345px;
+        .circle {
+          margin-top: -6px;
+          border-radius: 50%;
+          width: 14px;
+          height: 14px;
+          background-color: #88d3fa;
+          cursor: pointer;
+
+          &:hover {
+            background-color: #3592bb;
+            animation: color 1s linear infinite;
+            -webkit-animation: color 1s linear infinite;
+          }
+        }
+
+        .which-year {
+          margin-top: 15px;
+          margin-left: -15px;
+          white-space: nowrap;
+        }
+      }
+      .circle-one {
+        margin-left: 226px;
+      }
+
+    }
+  }
+
+}
+
+.contact-box {
+  height: 687px;
+  .main {
+    .contact {
+      margin-top: 60px;
+      .map {
+        border: 1px solid #ccc;
+        width: 648px;
+        height: 374px;
+      }
+      .info {
+        margin-top: 5px;
+        border-top: 1px solid #ccc;
+        width: 500px;
+        .info-item {
+          position: relative;
+          padding-left: 25px;
+          font-size: 14px;
+          line-height: 32px;
+          .icon {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 20px;
+            height: 20px;
+            .iconfont {
+              font-size: 20px;
+            }
+            .icon-dianhua, .icon-China_Post {
+              font-size: 16px;
+            }
+
+          }
+        }
+        .address {
+          margin-top: 44px;
+        }
+        .work-time {
+          margin-top: 44px;
+          padding-left: 0;
+        }
+      }
+    }
+  }
+}
+
+.foot-box {
+  padding-top: 90px;
+  height: 250px;
+  line-height: 20px;
+  color: #545d6e;
+  background-color: #25282d;
+  font-size: 12px;
+  text-align: center;
+  .down-pic {
+    .down-big {
+      font-size: 26px;
+    }
+  }
+  .text {
+    margin-top: 25px;
+    .big-text {
+      margin-bottom: 10px;
+      line-height: 30px;
+      font-size: 24px;
+    }
+
+  }
+
+}
+
+

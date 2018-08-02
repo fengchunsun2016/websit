@@ -1,0 +1,237 @@
+.clearfix:before,
+.clearfix:after {
+  content: "";
+  display: table;
+}
+.clearfix:after {
+  clear: both;
+}
+.clearfix {
+  *zoom: 1;
+  /*IE/7/6*/
+}
+.fl {
+  float: left !important;
+}
+.fr {
+  float: right !important;
+}
+@keyframes color {
+  from {
+    box-shadow: 0 0 0.05rem 0.05rem #2f98d1;
+  }
+  to {
+    box-shadow: 0 0 0.05rem 0.05rem #88d3fa;
+  }
+}
+@-webkit-keyframes color {
+  from {
+    box-shadow: 0 0 0.05rem 0.05rem #2f98d1;
+  }
+  to {
+    box-shadow: 0 0 0.05rem 0.05rem #88d3fa;
+  }
+}
+.main {
+  width: 7.5rem;
+  font-size: 0.28rem;
+  overflow: hidden;
+}
+.main .banner-box {
+  width: 100%;
+  height: 3.75rem;
+  background: url("../images/banner.jpg") no-repeat;
+  background-size: 100% 100%;
+}
+.main .tittle {
+  position: relative;
+  height: 0.8rem;
+  line-height: 0.8rem;
+  text-align: center;
+}
+.main .tittle .icon-line {
+  position: absolute;
+  left: 50%;
+  bottom: 0.03rem;
+  margin-left: -0.32rem;
+  width: 0.65rem;
+  height: 0.04rem;
+  background-color: #3098d5;
+}
+.main .product-box {
+  padding: 0 0.35rem;
+}
+.main .product-box .product {
+  margin-top: 0.3rem;
+}
+.main .product-box .product .product-tittle {
+  height: 0.6rem;
+  line-height: 0.6rem;
+}
+.main .product-box .product .product-tittle img {
+  width: 0.6rem;
+  height: 0.6rem;
+}
+.main .product-box .product .product-tittle .product-name {
+  margin-left: 0.2rem;
+  font-size: 0.26rem;
+}
+.main .product-box .product .product-content {
+  font-size: 0.24rem;
+}
+.main .product-box .product .product-content .desc {
+  margin-top: 0.1rem;
+}
+.main .product-box .product .product-content .download-app {
+  margin-top: 0.6rem;
+}
+.main .product-box .product .product-content .download-app .ios,
+.main .product-box .product .product-content .download-app .andr {
+  position: relative;
+  width: 1.82rem;
+  height: 2.46rem;
+}
+.main .product-box .product .product-content .download-app .ios img,
+.main .product-box .product .product-content .download-app .andr img {
+  width: 100%;
+  height: 1.82rem;
+}
+.main .product-box .product .product-content .download-app .ios .text,
+.main .product-box .product .product-content .download-app .andr .text {
+  height: 0.5rem;
+  line-height: 0.5rem;
+  font-size: 0.24rem;
+  text-align: center;
+}
+.main .product-box .product .product-content .download-app .ios {
+  margin-left: 1.23rem;
+  margin-right: 0.75rem;
+}
+.main .product-box .product .product-content .download-app .ios .wait {
+  position: absolute;
+  left: 0;
+  top: 0.7rem;
+  width: 1.82rem;
+  text-align: center;
+  color: #fff;
+  font-size: 0.26rem;
+}
+.main .advantage-box {
+  padding: 0 0.35rem;
+}
+.main .advantage-box .content {
+  padding-bottom: 0.2rem;
+  border-bottom: 1px solid #d7d7d7;
+}
+.main .advantage-box .content .advantage {
+  padding: 0.34rem 0;
+}
+.main .advantage-box .content .advantage .left {
+  width: 1.24rem;
+  height: 1.24rem;
+}
+.main .advantage-box .content .advantage .left img {
+  width: 100%;
+  height: 100%;
+}
+.main .advantage-box .content .advantage .right {
+  margin-left: 0.2rem;
+  margin-top: 0.07rem;
+  width: 5.36rem;
+}
+.main .advantage-box .content .advantage .right .name {
+  font-size: 0.28rem;
+}
+.main .advantage-box .content .advantage .right .desc {
+  font-size: 0.24rem;
+  color: #888;
+}
+.main .company-box {
+  padding: 0.2rem 0.35rem 0;
+}
+.main .company-box .content {
+  margin: 0.3rem 0 0.5rem;
+  color: #333;
+}
+.main .swiper-container {
+  padding: 0 0.6rem 0.8rem;
+}
+.main .swiper-container .swiper-wrapper .swiper-slide {
+  position: relative;
+  padding: 0 0.2rem 0.9rem;
+  border-bottom: 1px solid #dbdee3;
+}
+.main .swiper-container .swiper-wrapper .swiper-slide img {
+  width: 100%;
+  height: 3.3rem;
+}
+.main .swiper-container .swiper-wrapper .swiper-slide .desc {
+  height: 1rem;
+  padding: 0.1rem 0.3rem;
+  line-height: 0.4rem;
+  font-size: 0.24rem;
+  box-shadow: 0 0 0.5rem 0.05rem #ccc;
+}
+.main .swiper-container .swiper-wrapper .swiper-slide .year-item {
+  position: absolute;
+  left: 50%;
+  bottom: -0.68rem;
+  margin-left: -0.6rem;
+  padding-top: 0.4rem;
+  width: 1.2rem;
+  height: 0.8rem;
+  text-align: center;
+}
+.main .swiper-container .swiper-wrapper .swiper-slide .year-item .icon {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  margin-left: -0.13rem;
+  width: 0.26rem;
+  height: 0.26rem;
+  border-radius: 50%;
+  background-color: #3592bb;
+  animation: color 1s linear infinite;
+  -webkit-animation: color 1s linear infinite;
+}
+.main .foot-box {
+  padding: 0.4rem 0;
+  color: #9ca3ad;
+  text-align: center;
+  background-color: #f0f3f8;
+}
+.main .foot-box .down-pic p {
+  height: 0.24rem;
+}
+.main .foot-box .down-pic p .iconfont {
+  line-height: 0.22rem;
+  font-size: 0.2rem;
+}
+.main .foot-box .down-pic p .down-big {
+  line-height: 0.44rem;
+  font-size: 0.4rem;
+}
+.main .foot-box .text {
+  margin-top: 0.4rem;
+  font-size: 0.16rem;
+}
+.main .foot-box .text .big-text {
+  font-size: 0.24rem;
+}
+.main .mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 7.5rem;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+}
+.main .mask img {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -3.75rem;
+  width: 7.5rem;
+  height: 7.5rem;
+}
